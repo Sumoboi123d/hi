@@ -11,9 +11,9 @@ local Window = nil
 function Library:Setup()
 	local version = LRM_ScriptVersion and "v" .. table.concat(LRM_ScriptVersion:split(""), ".") or "Dev Version"
 	Window = UI:CreateWindow({
-		Title = "Phantom",
+		Title = "V!BES HUB",
 		Author = (premium and "Premium" or " Grow a Graden") .. " | " .. version,
-		Folder = "Phantom",
+		Folder = "V!BES HUB",
 		Size = UDim2.fromOffset(580, 460),
 		Transparent = true,
 		Theme = "Dark",
